@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Dark white background */
+    color: black; /* Black color for text */
+  }
+  
+  header {
+    background-color: #333; /* Dark gray background for header */
+    padding: 10px;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    color: red; /* Red color for the website name */
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: red; /* Red color on hover */
+  }
+  
+  nav a.active {
+    color: red; /* Red color for the active page */
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input {
+    padding: 0.5rem;
+    margin-right: 1.5rem;
+    border-radius: 10%;
+  }
+  
+  .search-container button {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: blue;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+  }
+  
+  .container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .column:nth-child(1) {
+    background-color: #f9f9f9; /* Light gray background for left column */
+  }
+  
+  .column:nth-child(1) h2 {
+    color: red; /* Red color for column 1 heading */
+    font-size: 32px; /* Larger font size for column 1 */
+  }
+  
+  .column:nth-child(1) p {
+    color: black; /* Black color for column 1 text */
+  }
+  
+  .column:nth-child(1) img {
+    max-width: 100%; /* Adjust the image size to fit the column */
+    display: block; /* Remove image's default inline spacing */
+    margin-bottom: 10px; /* Add some space after the image */
+  }
+  
+  .column:nth-child(2) {
+    background-color: #333; /* Dark gray background for right column */
+    color: white;
+  }
+  
+  .column:nth-child(2) h2 {
+    color: red; /* Red color for column 2 heading */
+    font-size: 24px; /* Smaller font size for column 2 */
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #333; /* Dark gray background for footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
